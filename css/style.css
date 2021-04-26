@@ -1,0 +1,371 @@
+.color {
+    position: absolute;
+    left: 315px;
+    top: 284px;
+}
+
+.color li {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.color li:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #FFD700;
+    float: left;
+    margin: 0 10px 0 0;
+    border: 2px solid #fff;
+}
+
+.color li:nth-child(2):before {
+    background: #fff;
+}
+
+.color li:nth-child(3):before {
+    background: #000;
+}
+
+.color p {
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.block-1 {
+    height: 620px;
+    background: url(../img/block11.jpg) center 0 no-repeat;
+    padding: 413px 40px 0;
+}
+
+.block-1 .sale {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    font: 31px 'MuseoSansCyrl-900';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fbca69;
+    -webkit-border-radius: 25px 0 0 25px;
+    -moz-border-radius: 25px 0 0 25px;
+    border-radius: 25px 0 0 25px;
+    background-color: rgba(32, 32, 32, 0.78);
+    padding: 10px 20px 10px 30px;
+}
+
+.block-1 .sale span {
+    font-size: 57px;
+    line-height: 1em;
+}
+
+.price {
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+
+.price>div {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 80px;
+    padding: 10px 5px;
+    font: 18px 'MuseoSansCyrl-500';
+    line-height: 1em;
+    white-space: nowrap;
+}
+
+.price .old {
+    padding-right: 10px;
+    text-align: right;
+    color: #fff;
+    background: #3e3e3e;
+}
+
+.price .old>s {
+    font: 32px 'MuseoSansCyrl-300';
+    line-height: 1.4em;
+}
+
+.price .new {
+    padding-left: 10px;
+    color: #111;
+    background: #fff;
+}
+
+.price .new>span {
+    color: #ca952c;
+    font: 36px 'MuseoSansCyrl-900';
+}
+
+.block-1 .button-m {
+    margin-top: 15px;
+}
+
+.block-2 {
+    padding: 0;
+}
+
+.block-3 {
+    padding: 20px 0 0;
+}
+
+.block-3 ul li {
+    position: relative;
+    padding: 20px 25px 20px 150px;
+    border-bottom: 1px dashed rgba(110, 110, 74, 0.6);
+}
+
+.block-3 ul li:nth-child(2n) {
+    background: #fff;
+}
+
+.block-3 ul li:last-child {
+    border: 0;
+    padding-bottom: 40px;
+}
+
+.block-3 ul li:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 55px;
+    left: 40px;
+    top: 12px;
+    background: url('../img/icon.png') no-repeat;
+}
+
+.block-3 ul li:nth-child(1):before {
+    background-position: 0px -196px;
+}
+
+.block-3 ul li:nth-child(2):before {
+    background-position: 0px -30px;
+}
+
+.block-3 ul li:nth-child(3):before {
+    background-position: 0px -83px;
+}
+
+.block-3 ul li:nth-child(4):before {
+    background-position: 0px -140px;
+}
+
+.block-3 ul li:nth-child(5):before {
+    background-position: 0px 10px;
+}
+
+.block-3 ul li:nth-child(6):before {
+    background-position: 0px -250px;
+}
+
+.block4 {
+    background: url('../img/block4.jpg') center 0 no-repeat;
+}
+
+.block4 .video {
+    width: 440px;
+    margin: 30px auto 40px;
+    border: 10px solid #f1f1f1;
+}
+
+.block4 .video>iframe {
+    position: relative;
+    display: block;
+}
+
+.block5 h2 {
+    color: #111;
+    font-size: 30px;
+}
+
+.block5 ul li {
+    position: relative;
+    margin-top: 50px;
+    padding: 0 30px 20px;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+}
+
+.block5 ul li:before {
+    content: '';
+    display: block;
+    width: 110px;
+    height: 110px;
+    background: url('../img/icon2.png') no-repeat;
+    margin: -17px auto auto;
+}
+
+.block5 ul li:nth-child(1):before {
+    background-position: 0px -1px;
+}
+
+.block5 ul li:nth-child(2):before {
+    background-position: 0px -115px;
+}
+
+.block5 ul li:nth-child(3):before {
+    background-position: 0px -229px;
+}
+
+.block6 {
+    background: #fff;
+    padding: 40px 0;
+}
+
+.block6 h2 {
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.block6 h2 b {
+    font-size: 28px;
+    color: #222222;
+}
+
+.block6 img {
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.block6 p {
+    position: relative;
+    padding: 0 20px 20px;
+    text-align: justify;
+}
+
+.block6 p:last-child {
+    padding: 0 20px 0;
+}
+
+.block7 {
+    background: url('../img/block7.jpg') center 0 repeat-y;
+    background-size: cover;
+}
+
+.block7 p {
+    position: relative;
+    padding: 9px 7px 5px 7px;
+    font-size: 22px;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.block7 .slider2 {
+    width: 340px;
+    margin: 20px auto 0;
+}
+
+.block7 h2 {
+    font: 30px 'MuseoSansCyrl-900';
+}
+
+.slider2 .container {
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.slider2 .container p {
+    color: #000000;
+    font: 15px 'MuseoSansCyrl-300';
+    text-align: justify;
+    text-align-last: center;
+    line-height: 22px;
+}
+
+.name {
+    text-align: center;
+    color: #000000;
+    font: 15px 'MuseoSansCyrl-500';
+    padding: 15px;
+    display: block;
+}
+
+.block8 {
+    padding-bottom: 0;
+}
+
+.block8 h2 {
+    color: #111;
+    font-size: 30px;
+    padding: 0 40px 20px;
+}
+
+.block8 .reviews {
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+}
+
+.block8 .reviews>img {
+    position: relative;
+    display: block;
+}
+
+.block8 p {
+    position: relative;
+    padding: 15px 0 0;
+    text-align: justify;
+}
+
+.block9 {
+    padding: 0;
+}
+
+.block9 h2 {
+    padding: 20px 0 15px;
+    background: #202020;
+}
+
+.block9 p.sale {
+    padding: 15px 0 12px;
+    font: 34px 'MuseoSansCyrl-900';
+    line-height: 1em;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ca952c;
+}
+
+.block9 .block-1 {
+    height: auto;
+    padding: 413px 40px 15px;
+}
+
+.timer {
+    background: #0f0f0f;
+    padding: 15px 40px;
+}
+
+.timer p {
+    padding: 0 0 10px;
+    color: #fff;
+}
+
+.m1-form {
+    background: #202020;
+    padding: 30px 40px;
+}
+
+.footer {
+    padding: 30px 0;
+    line-height: 1em;
+}
+
+.footer a {
+    font-size: 16px;
+    display: block;
+    color: #234161;
+    padding: 10px 0 0;
+}
